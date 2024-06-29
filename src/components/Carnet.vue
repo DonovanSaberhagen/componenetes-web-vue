@@ -1,5 +1,5 @@
 <template>
-    <!-- Card del carnet a editar -->
+    <!-- Card  -->
     <div class="carnet">
       <aside>
         <div>
@@ -42,13 +42,13 @@
               <span>{{ fechaNacimiento }}</span>
             </article>
             <article>
-              <header>NÙMERO DOCUMENTO</header>
+              <header>NUMERO DOCUMENTO</header>
               <span>{{ numeroDocumento }}</span>
             </article>
           </div>
           <div class="grid-2-colums">
             <article>
-              <header>FECHA DE EMISIÒN</header>
+              <header>FECHA DE EMISION</header>
               <span>{{ fechaEmision }}</span>
             </article>
             <article>
@@ -70,13 +70,13 @@
     name: 'CarnetElon',
     data() {
       return {
-        run: '22.222.222-2',
+        run: '88.888.888-8',
         apellidos: 'MUSK',
         nombres: 'ELON REEVE',
         nacionalidad: 'SUDAFRICANO',
         sexo: 'M',
         fechaNacimiento: '28 JUN 1971',
-        numeroDocumento: '222.222.222',
+        numeroDocumento: '888.888.888',
         fechaEmision: '01 ENE 2025',
         fechaVencimiento: '01 ENE 2030',
         firma: 'X Æ A-12'
@@ -88,7 +88,7 @@
   }
   </script>
   
-  <!-- Add "scoped" attribute to limit CSS to this component only -->
+  <!-- css -->
   <style scoped>
   .carnet {
     width: 400px;
